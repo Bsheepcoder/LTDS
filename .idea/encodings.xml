@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ltds-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-server/pkg-server-book/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-server/pkg-server-borrow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-server/pkg-server-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pkg-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
