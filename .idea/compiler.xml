@@ -2,16 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pkg-api" />
         <module name="pkg-auth" />
         <module name="pkg-common" />
-        <module name="pkg-server-user" />
         <module name="pkg-server-book" />
         <module name="pkg-server-borrow" />
+        <module name="pkg-api" />
+        <module name="pkg-server-user" />
+        <module name="pkg-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,7 @@
       <module name="pkg-api" options="-parameters" />
       <module name="pkg-auth" options="-parameters" />
       <module name="pkg-common" options="-parameters" />
+      <module name="pkg-gateway" options="-parameters" />
       <module name="pkg-server-book" options="-parameters" />
       <module name="pkg-server-borrow" options="-parameters" />
       <module name="pkg-server-user" options="-parameters" />
