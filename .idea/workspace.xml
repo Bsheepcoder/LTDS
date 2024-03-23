@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9571d38-827d-4ba3-a0bb-bc4d8f157996" name="更改" comment="修改">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-api/target/classes/com/pkg/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-api/target/classes/com/pkg/Borrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-api/target/classes/com/pkg/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-auth/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-auth/target/classes/com/pkg/auth/AuthApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-auth/target/classes/com/pkg/auth/config/OAuth2Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-auth/target/classes/com/pkg/auth/config/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-gateway/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-gateway/target/classes/com/pkg/gateway/GatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/target/classes/com/pkg/server/book/BookApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/target/classes/com/pkg/server/book/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/target/classes/com/pkg/server/book/mapper/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/target/classes/com/pkg/server/book/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/target/classes/com/pkg/server/book/service/Impl/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/BorrowApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/controller/BorrowController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/entity/UserBorrowDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/mapper/BorrowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/service/BorrowService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/service/Impl/BorrowServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/service/client/BookClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/service/client/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/target/classes/com/pkg/server/borrow/service/client/UserFallbackClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-user/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-user/target/classes/com/pkg/server/user/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-user/target/classes/com/pkg/server/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-user/target/classes/com/pkg/server/user/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-user/target/classes/com/pkg/server/user/service/Impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-user/target/classes/com/pkg/server/user/service/UserService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2dxH2l6SMiaoG1PqyqSKpibfHP3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JAR 应用程序.sentinel-dashboard-1.8.7.jar.executor": "Run",
+    "Maven.pkg-gateway [clean].executor": "Run",
+    "Maven.pkgbe-pom [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AuthApplication.executor": "Run",
+    "Spring Boot.BookApplication.executor": "Run",
+    "Spring Boot.BorrowApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.UserApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Code/Java/LTDS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/path.env" />
+      </option>
+      <module name="pkg-auth" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.auth.AuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pkg.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/path.env" />
+      </option>
+      <module name="pkg-server-book" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.server.book.BookApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pkg.server.book.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/path.env" />
+      </option>
+      <module name="pkg-server-borrow" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.server.borrow.BorrowApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pkg.server.borrow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/path.env" />
+      </option>
+      <module name="pkg-gateway" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pkg.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/path.env" />
+      </option>
+      <module name="pkg-server-user" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.server.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pkg.server.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.BorrowApplication" />
+        <item itemvalue="Spring Boot.BookApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-3183f394aec4-cb300fc7" />
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a9571d38-827d-4ba3-a0bb-bc4d8f157996" name="更改" comment="" />
+      <created>1710942603343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710942603343</updated>
+      <workItem from="1710942604362" duration="1886000" />
+      <workItem from="1710988887256" duration="604000" />
+      <workItem from="1711167198376" duration="98000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改">
+      <option name="closed" value="true" />
+      <created>1710942702800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942702800</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改">
+      <option name="closed" value="true" />
+      <created>1710942880181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710942880181</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改">
+      <option name="closed" value="true" />
+      <created>1710943362920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943362920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改">
+      <option name="closed" value="true" />
+      <created>1710943366535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943366535</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改">
+      <option name="closed" value="true" />
+      <created>1710943504121</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943504121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+  </component>
+</project>
