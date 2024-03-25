@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @description:
  */
 //fallback参数指定为我们刚刚编写的实现类
-@FeignClient(value = "user-service", url = "http://localhost:8080", fallback = UserFallbackClient.class)//声明为userservice服务的HTTP请求客户端
+@FeignClient(value = "user-service",url = "localhost:8080",fallback = UserFallbackClient.class)//声明为userservice服务的HTTP请求客户端
 public interface UserClient {
     //路径保证和其他微服务提供的一致即可
     @RequestMapping("/user/{uid}")

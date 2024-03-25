@@ -10,6 +10,8 @@ import com.pkg.server.borrow.service.BorrowService;
 import com.pkg.server.borrow.service.client.BookClient;
 import com.pkg.server.borrow.service.client.UserClient;
 import io.seata.spring.annotation.GlobalTransactional;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.List;
@@ -33,6 +35,7 @@ public class BorrowServiceImpl implements BorrowService {
     @Resource
     BorrowMapper mapper;
 
+    @LoadBalanced
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);

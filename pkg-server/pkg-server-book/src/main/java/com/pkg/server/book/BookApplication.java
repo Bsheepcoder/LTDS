@@ -4,6 +4,7 @@ import io.seata.spring.annotation.datasource.EnableAutoDataSourceProxy;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
 /**
@@ -11,7 +12,6 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
  * @date: 2024/2/19
  * @description:
  */
-
 @EnableResourceServer
 @SpringBootApplication
 @MapperScan("com.pkg.server.book.mapper")

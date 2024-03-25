@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date: 2024/2/20
  * @description:
  */
-@FeignClient(value = "book-service",url = "http://localhost:8080")   //声明为userservice服务的HTTP请求客户端
+@FeignClient(value = "book-service",url = "localhost:8080")   //声明为userservice服务的HTTP请求客户端
 public interface BookClient {
     @RequestMapping("/book/{bid}")
     Book findBookById(@PathVariable("bid") int bid);

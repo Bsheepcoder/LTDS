@@ -11,8 +11,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
  * @date: 2024/2/19
  * @description:
  */
-@EnableResourceServer
 @EnableFeignClients
+@EnableResourceServer
 @SpringBootApplication
 @MapperScan("com.pkg.server.borrow.mapper")
 public class BorrowApplication {
