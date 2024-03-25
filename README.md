@@ -1,3 +1,37 @@
+# 项目架构
+
+- 微服务架构
+
+  - SpringBoot
+
+  - SpringCloud
+
+  - SpringCloudAlibaba
+
+- 分布式认证鉴权
+  - Spring Security
+  - OAuth2.0
+
+- 服务注册中心、配置中心
+  - Nacos
+- 流量监控
+  - Sentinel
+- 分布式事务
+  - Seate
+
+- 远程调用：
+  - OpenFeign
+
+- 持久化：
+
+  - Mybatis
+
+  - Mybatis-plus
+
+  - MySQL
+
+  - Redis
+
 # 开发文档
 
 ## Nacos配置

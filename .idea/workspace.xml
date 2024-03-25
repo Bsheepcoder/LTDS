@@ -261,11 +261,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BorrowApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Spring Boot.BorrowApplication" />
         <item itemvalue="Spring Boot.BookApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
       </list>
     </recent_temporary>
   </component>

@@ -9,7 +9,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
  * @date: 2024/3/4
  * @description:
  */
-@EnableOAuth2Client
+
 @SpringBootApplication
 public class AuthApplication {
     public static void main(String[] args) {
