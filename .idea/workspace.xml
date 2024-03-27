@@ -4,10 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9571d38-827d-4ba3-a0bb-bc4d8f157996" name="更改" comment="修改">
+    <list default="true" id="a9571d38-827d-4ba3-a0bb-bc4d8f157996" name="更改" comment="项目重构">
+      <change afterPath="$PROJECT_DIR$/pkg-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-api/src/main/java/com/pkg/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-api/src/main/java/com/pkg/entity/Borrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-api/src/main/java/com/pkg/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-auth/src/main/java/com/pkg/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-auth/src/main/java/com/pkg/config/OAuth2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-auth/src/main/java/com/pkg/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-auth/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-comm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-comm/src/main/java/com/pkg/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-gateway/src/main/java/com/pkg/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/java/com/pkg/BookApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/java/com/pkg/config/ResourceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/java/com/pkg/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/java/com/pkg/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/java/com/pkg/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/java/com/pkg/service/Impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-book/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/BorrowApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/config/WebConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/controller/BorrowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/entity/UserBorrowDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/mapper/BorrowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/service/BorrowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/service/Impl/BorrowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/service/client/BookClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/service/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/java/com/pkg/service/client/UserFallbackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-borrow/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/src/main/java/com/pkg/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/src/main/java/com/pkg/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/src/main/java/com/pkg/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/src/main/java/com/pkg/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/src/main/java/com/pkg/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pkg-service-user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-book/src/main/java/com/pkg/server/book/config/ResourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pkg-server/pkg-server-book/src/main/java/com/pkg/server/book/config/ResourceConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/src/main/java/com/pkg/server/borrow/BorrowApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pkg-server/pkg-server-borrow/src/main/java/com/pkg/server/borrow/BorrowApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +89,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "JAR 应用程序.sentinel-dashboard-1.8.7.jar.executor": "Run",
+    "JAR 应用程序.sentinel-server.executor": "Run",
     "Maven.pkg-gateway [clean].executor": "Run",
     "Maven.pkgbe-pom [clean].executor": "Run",
     "Maven.pkgbe-pom [compile].executor": "Run",
@@ -61,8 +109,9 @@
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.UserApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JAVA_Item/LTDS",
+    "last_opened_file_path": "E:/JAVA_Item/LTDS/sentinel/sentinel-dashboard-1.8.7.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,9 +126,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\Java\LTDS\pkg-server\pkg-server-borrow\src\main\java\com\pkg\server\borrow" />
+      <recent name="E:\JAVA_Item\LTDS\pkg-gateway\src\main\resources" />
+      <recent name="E:\JAVA_Item\LTDS\pkg-auth\src\main\resources" />
+      <recent name="E:\JAVA_Item\LTDS\pkg-auth\src\main\java\com\pkg" />
+      <recent name="E:\JAVA_Item\LTDS\pkg-api\src\main\java\com\pkg\entity" />
+      <recent name="E:\JAVA_Item\LTDS\pkg-service\pkg-service-borrow\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pkg" />
       <recent name="com.pkg.server.borrow.config" />
       <recent name="com.pkg.server.book.config" />
     </key>
@@ -94,8 +148,27 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthApplication">
-    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JAR 应用程序.sentinel-server">
+    <configuration name="sentinel-server" type="JarApplication">
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <option name="JAR_PATH" value="$PROJECT_DIR$/sentinel/sentinel-dashboard-1.8.7.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\JAVA_Item\LTDS" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="server.port" value="8858" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/path.env" />
       </option>
@@ -103,13 +176,7 @@
       <selectedOptions>
         <option name="environmentVariables" />
       </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.auth.AuthApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pkg.auth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.AuthApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -124,21 +191,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="BookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/path.env" />
       </option>
-      <module name="pkg-server-book" />
+      <module name="pkg-service-book" />
       <selectedOptions>
         <option name="environmentVariables" />
       </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.server.book.BookApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pkg.server.book.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.BookApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -153,21 +214,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BorrowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="BorrowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/path.env" />
       </option>
-      <module name="pkg-server-borrow" />
+      <module name="pkg-service-borrow" />
       <selectedOptions>
         <option name="environmentVariables" />
       </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.server.borrow.BorrowApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pkg.server.borrow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.BorrowApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -182,7 +237,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/path.env" />
       </option>
@@ -190,13 +245,7 @@
       <selectedOptions>
         <option name="environmentVariables" />
       </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.gateway.GatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pkg.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.GatewayApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -211,21 +260,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="envFilePaths">
         <option value="$PROJECT_DIR$/path.env" />
       </option>
-      <module name="pkg-server-user" />
+      <module name="pkg-service-user" />
       <selectedOptions>
         <option name="environmentVariables" />
       </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.server.user.UserApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pkg.server.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pkg.UserApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -241,21 +284,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JAR 应用程序.sentinel-server" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.BookApplication" />
       <item itemvalue="Spring Boot.BorrowApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.AuthApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.BorrowApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.BookApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -284,7 +319,7 @@
       <workItem from="1711506081592" duration="1223000" />
       <workItem from="1711509861563" duration="600000" />
       <workItem from="1711512169633" duration="8000" />
-      <workItem from="1711513056563" duration="1182000" />
+      <workItem from="1711513056563" duration="7419000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <option name="closed" value="true" />
@@ -350,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711365565962</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="项目重构">
+      <option name="closed" value="true" />
+      <created>1711517129352</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711517129352</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +411,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="项目重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目重构" />
   </component>
 </project>

@@ -8,15 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pkg-auth" />
-        <module name="pkg-common" />
-        <module name="pkg-server-book" />
-        <module name="pkg-server-borrow" />
+        <module name="pkg-service-borrow" />
+        <module name="pkg-service-user" />
+        <module name="pkg-comm" />
         <module name="pkg-api" />
-        <module name="pkg-server-user" />
+        <module name="pkg-service-book" />
         <module name="pkg-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pkg-common" target="1.8" />
+      <module name="pkg-server" target="1.8" />
+      <module name="pkg-server-book" target="1.8" />
+      <module name="pkg-server-borrow" target="1.8" />
+      <module name="pkg-server-user" target="1.8" />
       <module name="springboot" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -24,11 +29,16 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pkg-api" options="-parameters" />
       <module name="pkg-auth" options="-parameters" />
+      <module name="pkg-comm" options="-parameters" />
       <module name="pkg-common" options="-parameters" />
       <module name="pkg-gateway" options="-parameters" />
       <module name="pkg-server-book" options="-parameters" />
       <module name="pkg-server-borrow" options="-parameters" />
       <module name="pkg-server-user" options="-parameters" />
+      <module name="pkg-service" options="" />
+      <module name="pkg-service-book" options="-parameters" />
+      <module name="pkg-service-borrow" options="-parameters" />
+      <module name="pkg-service-user" options="-parameters" />
       <module name="springboot" options="-parameters" />
     </option>
   </component>
